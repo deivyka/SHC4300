@@ -1,6 +1,6 @@
 # FSMD-based-e-dice with different cheating modes
 
-## The block diagram represented below corresponds to a FSMD architecture that implements the functional requirements of a cheating electronic dice.
+### The block diagram represented below corresponds to a FSMD architecture that implements the functional requirements of a cheating electronic dice.
 
 ![FSMD](https://github.com/deivyka/SHC4300/blob/master/IMAGES/w02d2%20fsmd%20edice.png)
 
