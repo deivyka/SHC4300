@@ -2,7 +2,7 @@
 
 ## The block diagram represented below corresponds to a FSMD architecture that implements the functional requirements of a cheating electronic dice.
 
-![FSMD description](https://github.com/deivyka/SHC4300/blob/master/IMAGES/w02d2%20fsmd%20edice.png "Logo Title Text 1")
+![FSMD](https://github.com/deivyka/SHC4300/blob/master/IMAGES/w02d2%20fsmd%20edice.png)
 
 - Assume that only two operating modes are supported: no cheating, and triple probability for the result specified by inputs “result(2:0)”. Present an ASMD chart that illustrates the behaviour of this FSMD. N.B.: In this case, “mode” is a single input that defines the no-cheating mode when at ‘0’, and the triple probability mode when at ‘1’.
 
