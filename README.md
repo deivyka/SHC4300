@@ -1,4 +1,4 @@
-# SHC4300
+# Folder description
 SHC4300: Software / Hardware Codevelopment of Embedded Systems
 
 ## For more info on Markdown see:
