@@ -9,3 +9,5 @@
 - Make all appropriate corrections and / or simplifications to the ASMD chart represented below, which is supposed to illustrate the behaviour of the architecture represented above, when supporting four operating modes (“00”: no-cheating; “01”: forbidden result; “10”: predefined result; “11”: triple probability).  
 
 - Build the corresponding VHDL description and prove that your solution works by showing simulation results in Vivado.
+
+![ASMD Chart](https://github.com/deivyka/SHC4300/blob/master/IMAGES/w02d2%20asmd%20chart%20edice.png)
