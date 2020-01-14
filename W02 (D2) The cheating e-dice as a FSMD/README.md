@@ -11,3 +11,10 @@
 - Build the corresponding VHDL description and prove that your solution works by showing simulation results in Vivado.
 
 ![ASMD Chart](https://github.com/deivyka/SHC4300/blob/master/IMAGES/w02d2%20asmd%20chart%20edice.png)
+
+
+### Solution ASMD Chart for triple probability
+![ASMD Chart](https://github.com/deivyka/SHC4300/blob/master/IMAGES/w2d2%20ASMD%20e-dice%20with%20triple%20prob.png)
+
+### Solution ASMD Chart for different modes
+![ASMD Chart](https://github.com/deivyka/SHC4300/blob/master/IMAGES/w2d2%20ASMD%20e-dice%20with%20modes.png)
