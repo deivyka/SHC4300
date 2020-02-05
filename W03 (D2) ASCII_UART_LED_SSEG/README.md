@@ -61,12 +61,15 @@ Since no clock information is conveyed from the transmitted signal, rx can retri
 5. Further, as shown in Putty picture above, the RS-232 communication between the virtual port and Basys-3 board can be established in putty terminal manager.
 6. Program device and test it yourself.
 
+----
 ![Device Manager](https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/device_manager.PNG)
 >Device Manager
 
+----
 ![Putty](https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/putty.PNG)
 >Putty
 
+----
 ![Simulation](https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/simulation.PNG)
 >Simulation
 
