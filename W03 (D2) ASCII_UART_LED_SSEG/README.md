@@ -45,7 +45,7 @@ Since no clock information is conveyed from the transmitted signal, rx can retri
 
 ---
 #### ASMD Chart
-<img src="https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/ASMD_UART.png">
+<img src="https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/ASMD_UART.png" alt="drawing" width="550" height="225"/>
 
 **Source: FPGA Prototyping by VHDL Examples, Pong P. Chu**
 
