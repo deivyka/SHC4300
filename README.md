@@ -2,4 +2,4 @@
 
 ---
 
-### *Group 2: Biplav, Deivy, Leila & Victor*
+### *Group 2: Biplav, Deivy, Leila & Victor* :rocket:
