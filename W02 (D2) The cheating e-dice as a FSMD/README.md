@@ -1,5 +1,7 @@
 # FSMD-based-e-dice
 
+## ASMD Charts has been done in draw.io
+
 ### The block diagram represented below corresponds to a FSMD architecture that implements the functional requirements of a cheating electronic dice.
 
 ![FSMD](https://github.com/deivyka/SHC4300/blob/master/W02%20(D2)%20The%20cheating%20e-dice%20as%20a%20FSMD/0.%20IMAGES/w2d2%20FSMD%20e-dice%20Jose.png)
