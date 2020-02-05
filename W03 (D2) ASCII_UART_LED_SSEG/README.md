@@ -1,4 +1,4 @@
-### W03 Jan 29 (D2) Receive ASCII codes via RS232 and display them on the Basys-3 leds
+## W03 Jan 29 (D2) Receive ASCII codes via RS232 and display them on the Basys-3 leds
 
 **Tasks:**
 
@@ -49,8 +49,8 @@ Since no clock information is conveyed from the transmitted signal, rx can retri
 
 **Source: FPGA Prototyping by VHDL Examples, Pong P. Chu**
 
-
-### Replication instructions
+---
+## Replication instructions
 
 To be able to reproduce simulation shown in figure XX, the steps above should be followed.
 
