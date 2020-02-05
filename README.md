@@ -1,4 +1,4 @@
-# SHC4300: Software / Hardware Codevelopment of Embedded Systems
+## SHC4300: Software / Hardware Codevelopment of Embedded Systems
 
 ---
 
