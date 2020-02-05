@@ -45,18 +45,28 @@ Since no clock information is conveyed from the transmitted signal, rx can retri
 
 ---
 #### ASMD Chart
-<img src="https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/ASMD_UART.png" alt="drawing" width="550" height="225"/>
+<img src="https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/ASMD_UART.png">
 
 **Source: FPGA Prototyping by VHDL Examples, Pong P. Chu**
 
 ---
 ## Replication instructions
 
-To be able to reproduce simulation shown in figure XX, the steps above should be followed.
+#### To be able to reproduce simulation shown in Simualtion picture at the bottom of the page, the steps above should be followed.
 
 1. Download the appropriate files and add these to your new project.
-2. Synthesise the project and after it is finished, add waveform configuration file attached in Simulation folder
-3. To test the solution in practice, basys-3 board is needed. Generate bitstream in vivado before proceeding to the next step.
-4. Find the right communication port: For windows users we can find appropriate usb connection port in Device Manager, as shown in figure XX, 
-5. Further, as shown in figure XX, the RS-232 communication between the virtual port and Basys-3 board can be established in putty terminal manager.
+2. Synthesize the project, after it is finished, add waveform configuration file attached in Simulation folder.
+3. To test this solution in practice, Basys-3 board is needed. Generate bitstream in Vivado before proceeding to the next step.
+4. Find the right communication port: For Windows users we can find appropriate USB connection port in Device Manager, as shown in Device Manager picture above.
+5. Further, as shown in Putty picture above, the RS-232 communication between the virtual port and Basys-3 board can be established in putty terminal manager.
 6. Program device and test it yourself.
+
+![Device Manager](https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/device_manager.PNG)
+>Device Manager
+
+![Putty](https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/putty.PNG)
+>Putty
+
+![Simulation](https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/simulation.PNG)
+>Simulation
+
