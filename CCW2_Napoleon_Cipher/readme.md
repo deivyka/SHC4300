@@ -1,8 +1,5 @@
-We use lower-case ASCII, (a=97, z=122). 
-
-
 The key = "Jean-Jacques Rousseau" will be hardcoded in the FPGA, i.e. the user can not change the key, only the message.
-The message and the ciphertext will be sent through RS232. We need a UART receiver and transmitter. It is possible to encrypt a message into ciphertext, and decrypt the ciphertext into the original message.
+The message and the ciphertext will be sent through RS232. We need a UART receiver and transmitter. It is possible to encrypt a message into ciphertext, and decrypt the ciphertext into the original message. We use lower-case ASCII, (a=97, z=122).
 
 
 
