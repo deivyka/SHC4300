@@ -10,7 +10,7 @@ The message and the ciphertext will be sent through RS232. We need a UART receiv
 
 
 ### Encryption
-position of C = ((25 - Position of M + position of K) mod 26) + 'a=97' 
+position of C = ((25 - Position of M + position of K) mod 26) + 97, where 25 = 'z'-'a', and 97 = 'a'
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;C_n=((25-M_n+K_n)\hspace{2mm}\textup{mod}\hspace{2mm}26)+97" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
