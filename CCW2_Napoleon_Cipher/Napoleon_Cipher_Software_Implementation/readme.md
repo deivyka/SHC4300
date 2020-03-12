@@ -51,19 +51,19 @@
 - Connect to Zybo board
   - Click on **SDK Terminal** tab (bottom of the environment)
     - Click on green **+** button to connect to a serial port
-    - Select appropriate communication port for Zybo board
-    - Set **Baud Rate** to 115200
-    - Press **OK**
+      - Select appropriate communication port for Zybo board
+      - Set **Baud Rate** to 115200
+      - Press **OK**
 
 - Paste provided code
   - In **Project Explorer** workspace, expand newly created projects folder
     - Expand **src** folder
       - Double click on **helloworld.c**
-      - Copy and paste the NapoleonCipher_zybo.c code provided in SHC4300/CCW2_Napoleon_Cipher/Napoleon_Cipher_Software_Implementation/
+        - Copy and paste the NapoleonCipher_zybo.c code provided in SHC4300/CCW2_Napoleon_Cipher/Napoleon_Cipher_Software_Implementation/
       - In upper-leftmost corner click on **File** and click on **Save**
 
 - Run provided code
-  - In **helloworld.c** code editor window
+  - In **Project Explorer** workspace, right mouse click on created projects folder and hover to **Run As**, click on **1 Launch on Hardware (System Debugger)**
     - Press right mouse button and hover to **Run As**, click on **1 Launch on Hardware (System Debugger)**
     - Click on **SDK Terminal** tab (bottom of the environment)
       - Send characters in the dedicated box
