@@ -22,7 +22,7 @@
     - Press **+** button and search for **GPIO** and double click on AXI GPIO
     - Click **Run Block Automation**, make sure upper-leftmost box for **All Automation** is selected and click **OK**
     - Click **Run Connection Automation**, make sure upper-leftmost box for **All Automation** is selected and click **OK**
-    - Press **ctrl+s** to save the design
+    - In upper-leftmost corner of the environment click **File** and click on **Save Block Design**
   - In **IP INTEGRATOR** select **Sources** tab
     - Expand **Design Sources**, right click on your design name and select **Create HDL Wrapper...**
     - Select **Let Vivado manage wrapper and auto-update** and click **OK**
@@ -40,8 +40,8 @@
 #### Software implementation in Xilinx SDK environment
 
 - Create a new application
-  - In upper-leftmost corner click on **File**, hover on **New** and click **Application Project**
-  - Give a project a name of your choice, leave the rest as default and click **Finish**
+  - In upper-leftmost corner of the environment click **File**, hover on **New** and click **Application Project**
+    - Give a project a name of your choice, leave the rest as default and click **Finish**
   - Wait till SDK is finished with building the workspace
 
 - Program FPGA
@@ -60,7 +60,7 @@
     - Expand **src** folder
       - Double click on **helloworld.c**
       - Copy and paste the NapoleonCipher_zybo.c code provided in SHC4300/CCW2_Napoleon_Cipher/Napoleon_Cipher_Software_Implementation/
-  - In upper-leftmost corner click on **File** and click on **Save**
+  - In upper-leftmost corner of the environment click **File** and click on **Save**
 
 - Run provided code
   - In **Project Explorer** workspace
