@@ -58,10 +58,10 @@ end arch_imp;
  
  
  #### Create Block Design
- - Create Block Design → OK → Click on the '+' symbol within the empty Diagram window.
+ - Create Block Design → OK → Click on the '+'-symbol within the empty Diagram window.
  - Add the ZYNQ7 Processing System → Run Block Automation → OK
  - Add your new IP block to the diagram → Run Connection Automation → OK
- - Click on the checkmark symbol to validate the design.
+ - Click on the '✓'-symbol to validate the design.
  
  #### Create HDL wrapper  
  - In **IP INTEGRATOR** select **Sources** tab
