@@ -20,7 +20,7 @@ position of M = ((25 + position of K - position of C) mod 26) + 97
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;M_n=((25+K_n-C_n)\hspace{2mm}\textup{mod}\hspace{2mm}26)+97" title="" />
 
-
+---
 > We can use one expression for both encryption and decryption:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;text_{out}(n)=((25+Key(n)-text_{in}(n))\hspace{2mm}\textup{mod}\hspace{2mm}26)+97" title="" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;text_{out}(n)=((25+K(n)-text_{in}(n))\hspace{2mm}\textup{mod}\hspace{2mm}26)+97" title="" />
