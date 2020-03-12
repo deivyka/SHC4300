@@ -9,7 +9,7 @@
 #### Hardware Configuration in Vivado environment
 
 - Connect Zybo board to your computer and switch the power on
-- Open Vivado 2019.1 to creat a new project
+- Open Vivado 2019.1 to create a new project
   - Create a new project and give it a name of your choice
   - In **Default Part** window select **Boards** tab and search for **Zybo**
   - Select the board and click **Finish**
@@ -20,8 +20,8 @@
   - In **Diagram** window on the right
     - Press **+** button and search for **ZYNQ7** and double click on ZYNQ7 Processing System
     - Press **+** button and search for **GPIO** and double click on AXI GPIO
-    - Click **Run Block Automation**, make shure upper-leftmost box for **All Automation** is selected and click **OK**
-    - Click **Run Connection Automation**, make shure upper-leftmost box for **All Automation** is selected and click **OK**
+    - Click **Run Block Automation**, make sure upper-leftmost box for **All Automation** is selected and click **OK**
+    - Click **Run Connection Automation**, make sure upper-leftmost box for **All Automation** is selected and click **OK**
     - Press **ctrl+s** to save the design
   - In **IP INTEGRATOR** select **Sources** tab
     - Expand **Design Sources**, right click on your design name and select **Create HDL Wrapper...**
@@ -41,7 +41,7 @@
 
 - Create a new application
   - In upper-leftmost corner click on **File**, hover on **New** and click **Application Project**
-  - Give a project a name of your choise, leave the rest as default and click **Finish**
+  - Give a project a name of your choice, leave the rest as default and click **Finish**
   - Wait till SDK is finished with building the workspace
 
 - Program FPGA
@@ -49,7 +49,7 @@
     - Leave settings as default and click **Program**
 
 - Connect to Zybo board
-  - Click on **SDK Terminal** tab (bottom of the envirnonment)
+  - Click on **SDK Terminal** tab (bottom of the environment)
     - Click on green **+** button to connect to a serial port
     - Select appropriate communication port for Zybo board
     - Set **Baud Rate** to 115200
@@ -65,5 +65,5 @@
 - Run provided code
   - In **helloworld.c** code editor window
     - Press right mouse button and hover to **Run As**, click on **1 Launch on Hardware (System Debugger)**
-    - Click on **SDK Terminal** tab (bottom of the envirnonment)
+    - Click on **SDK Terminal** tab (bottom of the environment)
       - Send characters in the dedicated box
