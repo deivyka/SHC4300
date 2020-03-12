@@ -61,7 +61,9 @@ end arch_imp;
  - Create Block Design → OK → Click on the '+' symbol within the empty Diagram window.
  - Add the ZYNQ7 Processing System → Run Block Automation → OK
  - Add your new IP block to the diagram → Run Connection Automation → OK
- - Create HDL wrapper  
+ - Click on the checkmark symbol to validate the design.
+ 
+ #### Create HDL wrapper  
  - In **IP INTEGRATOR** select **Sources** tab
     - Expand **Design Sources**, right click on your design name and select **Create HDL Wrapper...**
     - Select **Let Vivado manage wrapper and auto-update** and click **OK**
