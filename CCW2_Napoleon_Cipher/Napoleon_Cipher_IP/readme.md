@@ -48,7 +48,7 @@
  ```vhdl
  	-- Add user logic here
 	   slv_reg1 <= X"0D" when slv_reg0 = X"0D" or slv_reg0 = X"0A" else
-                   std_logic_vector(((25 - unsigned( slv_reg0 ) + unsigned( slv_reg2)) mod 26) +97);
+                   std_logic_vector(((25 - unsigned(slv_reg0) + unsigned(slv_reg2)) mod 26) + 97);
 	-- User logic ends
   
 end arch_imp;
