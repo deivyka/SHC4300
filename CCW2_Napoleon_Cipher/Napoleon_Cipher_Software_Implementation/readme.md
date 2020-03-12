@@ -58,8 +58,8 @@
 - Paste provided code
   - In **Project Explorer** workspace, expand newly created projects folder
     - Expand **src** folder
-      - Double click on **helloworld.c**
-      - Copy and paste the NapoleonCipher_zybo.c code provided in SHC4300/CCW2_Napoleon_Cipher/Napoleon_Cipher_Software_Implementation/
+      - Double click on **`helloworld.c`**
+      - Copy and paste the `NapoleonCipher_zybo.c` code provided in `SHC4300/CCW2_Napoleon_Cipher/Napoleon_Cipher_Software_Implementation/`
   - In upper-leftmost corner of the environment click **File** and click on **Save**
 
 - Run provided code
@@ -67,4 +67,5 @@
     - Right mouse click on created projects folder and hover to **Run As**, click on **1 Launch on Hardware (System Debugger)**
   - Click on **SDK Terminal** tab (bottom of the environment)
     - Send characters in the dedicated box
-    - Be aware that the Cipher key is **victordeivyleilabiplav** in this project
+   
+   > Be aware that the Cipher key is **`victordeivyleilabiplav`** in this project
