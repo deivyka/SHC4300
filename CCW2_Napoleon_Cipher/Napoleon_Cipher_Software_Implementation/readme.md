@@ -67,3 +67,4 @@
     - Right mouse click on created projects folder and hover to **Run As**, click on **1 Launch on Hardware (System Debugger)**
   - Click on **SDK Terminal** tab (bottom of the environment)
     - Send characters in the dedicated box
+    - Be aware that the Cipher key is **victordeivyleilabiplav** in this project
