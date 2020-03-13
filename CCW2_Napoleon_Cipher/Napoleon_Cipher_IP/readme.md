@@ -26,7 +26,7 @@
 	  if rising_edge(S_AXI_ACLK) then 
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');
-	     -- slv_reg1 <= (others => '0');
+	     -- slv_reg1 <= (others => '0'); *COMMENT THIS LINE*
 	      slv_reg2 <= (others => '0');
 	      slv_reg3 <= (others => '0');
 	    else 
@@ -37,7 +37,7 @@
 	    if ( S_AXI_WSTRB(byte_index) = '1' ) then
 	      -- Respective byte enables are asserted as per write strobes                   
 	      -- slave registor 1
-	      -- slv_reg1(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
+	      -- slv_reg1(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);  *COMMENT THIS LINE*
 	    end if;
 	  end loop;
   when b"10" =>
