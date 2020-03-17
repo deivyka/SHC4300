@@ -3,3 +3,6 @@
 ---
 
 ### :rocket: *Group 2: Biplav, Deivy, Leila & Victor*
+
+---
+![electronics](https://github.com/deivyka/SHC4300/blob/master/electronics.jpg)
