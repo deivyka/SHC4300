@@ -17,12 +17,12 @@ A UART includes a transmitter (tx) and a receiver (rx). The transmitter is a spe
 * The number of data bits can be 6, 7, or 8. 
 * The optional parity bit is used for error detection. For odd parity, it is set to ’0’ when the data bits have an odd number of 1’s. For even parity, it is set to ’0’ when the data bits have an even number of 1’s.
 
-<img src="https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/uart.png" alt="drawing" width="450" height="125"/>
+<img src="https://github.com/deivyka/SHC4300/blob/master/Discussions/W03D2_UART_ASCII/0.%20IMAGES/uart.png" alt="drawing" width="450" height="125"/>
 
 
 The transmission with 8 data bits, no parity, and 1 stop bit is shown in the figure above. The LSB of the data word is transmitted first. Before the transmission starts, the tx and rx must agree on a set of parameters in advance, which include the baud rate (e.g. 19200 bps), the number of data bits and stop bits, and use of the parity bit.
 
-<img src="https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/block_diagram.jpg" alt="drawing" width="550" height="225"/>
+<img src="https://github.com/deivyka/SHC4300/blob/master/Discussions/W03D2_UART_ASCII/0.%20IMAGES/block_diagram.jpg" alt="drawing" width="550" height="225"/>
 
 >Figure above.
 
@@ -45,7 +45,7 @@ Since no clock information is conveyed from the transmitted signal, rx can retri
 
 ---
 #### ASMD Chart
-<img src="https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/ASMD_UART.png">
+<img src="https://github.com/deivyka/SHC4300/blob/master/Discussions/W03D2_UART_ASCII/0.%20IMAGES/ASMD_UART.png">
 
 **Source: FPGA Prototyping by VHDL Examples, Pong P. Chu**
 
@@ -62,14 +62,14 @@ Since no clock information is conveyed from the transmitted signal, rx can retri
 6. Program device and test it yourself.
 
 ----
-![Device Manager](https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/device_manager.PNG)
+![Device Manager](https://github.com/deivyka/SHC4300/blob/master/Discussions/W03D2_UART_ASCII/0.%20IMAGES/device_manager.PNG)
 >Device Manager
 
 ----
-![Putty](https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/putty.PNG)
+![Putty](https://github.com/deivyka/SHC4300/blob/master/Discussions/W03D2_UART_ASCII/0.%20IMAGES/putty.PNG)
 >Putty
 
 ----
-![Simulation](https://github.com/deivyka/SHC4300/blob/master/W03%20(D2)%20ASCII_UART_LED_SSEG/0.%20IMAGES/simulation.PNG)
+![Simulation](https://github.com/deivyka/SHC4300/blob/master/Discussions/W03D2_UART_ASCII/0.%20IMAGES/simulation.PNG)
 >Simulation
 
