@@ -61,7 +61,8 @@ begin
         when check_for_ascii =>
             ram_message <= '0';
             if (from_rx_done_tick = '1') then
-                if ((from_rx_bus>=X"61" and from_rx_bus<=X"7a") or  from_rx_bus = X"0A" or from_rx_bus = X"0D" or from_rx_bus = X"20") then -- go to store_1 if ascii 'a' to 'z'
+                -- X"0A" = Line feed, X"0D" = "Enter"-key (carriage return), X"20" = space
+                if ((from_rx_bus>=X"61" and from_rx_bus<=X"7a") or from_rx_bus = X"0A" or from_rx_bus = X"0D" or from_rx_bus = X"20") then -- go to store_1 if ascii 'a' to 'z'
                     state_next <= store_1;
                 else
                     state_next <= check_for_ascii;    
@@ -89,7 +90,7 @@ begin
             ram_message <= '0';
             to_tx_start_tick <= '0';
             if (from_tx_done_tick = '1') then
-                if (from_rx_bus = X"0D" or from_rx_bus = X"0A") then
+                if (from_rx_bus = X"0D" or from_rx_bus = X"0A") then -- X"0A" = Line feed, X"0D" = "Enter"-key (carriage return)
                     state_next <= transmit_all;
                 else
                     state_next <= check_for_ascii;
@@ -113,7 +114,7 @@ begin
             ram_message <= '1';
             to_tx_start_tick <= '0';
             if (from_tx_done_tick = '1') then    
-                if (ram_bus = X"0A" or ram_bus = X"0D" ) then 
+                if (ram_bus = X"0A" or ram_bus = X"0D" ) then  -- X"0A" = Line feed, X"0D" = "Enter"-key (carriage return)
                     pcntr_next <= (others => '0');                                    
                     state_next <= transmit_cr1;
                 else
@@ -143,8 +144,8 @@ begin
     to_enc <= not from_mode;
     to_dec <= from_mode;
     to_abus <= std_logic_vector(pcntr_reg);
+    -- X"0A" = Line feed, X"0D" = "Enter"-key (carriage return)
     to_tx_bus <= X"0A" when ( from_rx_bus = X"0D" and ram_message= '0' ) else
                  from_rx_bus when ram_message = '0' else
                  ram_bus;  
-
 end arch;
